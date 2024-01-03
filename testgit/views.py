@@ -5,3 +5,6 @@ from django.shortcuts import render
 
 def testgit(request):
     return HttpResponse('<b>This is the homepage<b>')
+
+def gittest(request):
+    return HttpResponse('<b>Pushed in test branch<b>')
