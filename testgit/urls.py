@@ -19,5 +19,6 @@ from django.urls import path, include
 from . import views
 
 urlpatterns = [
-    path('', views.testgit)
+    path('', views.testgit),
+    path('/test', views.gittest)
 ]
